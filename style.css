@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;;
+    background-color: #a6a6a6;
+
+}
+/*! GİRİŞ SAYFASI  */
+
+.baba{
+    display: flex;
+    width: 100%;
+    height: 96vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #a6a6a6;
+}
+.baryazi{
+    text-decoration: none;
+    font-size: 25px;
+    color: #222222;
+}
+.baryazi:hover{
+    color: #101010;
+    font-size: 28px;
+}
+.typewriter h1 {
+    font-weight: 200;
+    font-size: 100px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(66, 66, 66);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #212121;
+    border: 3px solid rgb(66, 66, 66);
+}
+
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+
+/*! Hakkımızda Sayfası  */
+.hakkimizda, .iletisim{
+    background-color: #161616 !important;
+}
+.hakrenk, .iletisim{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 25px;
+}
+.chibi1{
+    width: 125px;
+    margin-top: 20px;
+}
+.chibi2{
+    float: right;
+    width: 139px;
+    margin-top: 20px;
+}
